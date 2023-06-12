@@ -1,3 +1,15 @@
+pets = {'my_pet':'wowchu', 'neighbbor':'teuni', 'usa_friend':'yonsei'}
+print(pets)
+transpose = {v:k for k, v in pets.items()}
+print(transpose)
+
+
+print(pets.keys())
+print(pets.values())
+
+print(list(pets.values()))
+
+
 
 step1=34
 step2=41
