@@ -1,0 +1,18 @@
+
+step1=34
+step2=41
+step3=31
+step4=23
+step5=46
+var1 = int(step1) + int(step2) + int(step3)+ int(step4)+int(step5)
+var2 = int(input('현재까지 이수한 강의수를 입력하세요.'))
+print(f"{var1}개의 강의 중 {var2}개 ({var2/var1*100:.2f})%의 강의를 들었습니다.")
+
+juminbeonho = input('가짜 주민등록 번호를 입력하세요.')
+print(list(int(x) for x in list(juminbeonho)))
+
+soda = input('생각나는 음료명 3가지를 입력하세요.').split()
+print(soda)
+
+new_drink = [id(drink) for drink in soda]
+print(new_drink)
